@@ -10,8 +10,6 @@ class CarPark:
         self.displays = displays or []
 
     def __str__(self):
-
-
         return f"Car park '{self.location}' contains {self.capacity} bays."
     
     def register(self, component):
